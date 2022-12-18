@@ -21,14 +21,15 @@ public class Solution19 {
      */
     public static void main ( String[] args ) {
         try ( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in ) ) ) {
-            reader.readLine();
-            System.out.println(solution( Arrays.stream(reader.readLine().split( " " )).mapToInt( Integer::parseInt ).toArray() ));
+            System.out.println(solution( reader ));
         } catch ( IOException e ) {
             e.printStackTrace();
         }
     }
 
-    private static int solution(int[] array) {
+    static int solution(BufferedReader reader) throws IOException {
+        reader.readLine();
+        int[] array = Arrays.stream( reader.readLine().split( " " ) ).mapToInt( Integer::parseInt ).toArray();
         int score = 0;
         int totalScore = 0;
         for ( int number : array ) {

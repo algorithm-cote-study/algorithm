@@ -20,14 +20,15 @@ public class Solution20 {
      */
     public static void main ( String[] args ) {
         try ( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in ) ) ) {
-            reader.readLine();
-            System.out.println(solution(reader.readLine()));
+            System.out.println(solution(reader));
         } catch ( IOException e ) {
             e.printStackTrace();
         }
     }
 
-    private static String solution ( String readLine ) {
+    static String solution ( BufferedReader reader ) throws IOException {
+        reader.readLine();
+        String readLine = reader.readLine();
         int[] array = Arrays.stream( readLine.split( " " ) ).mapToInt( Integer::parseInt ).toArray();
         Map<Integer, Integer> map = new HashMap<>();
         List<Integer> sortedArray = Arrays.stream( array ).boxed().sorted( Comparator.reverseOrder() ).toList();
