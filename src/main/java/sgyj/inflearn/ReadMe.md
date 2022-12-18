@@ -20,3 +20,18 @@
 
 ***
 
+***
+## 2주차.
+- 2-1
+  - [11. 문자열 압축](https://cote.inflearn.com/contest/10/problem/01-11)
+  - [12. 암호](https://cote.inflearn.com/contest/10/problem/01-12)
+  - [1. 큰 수 출력하기](https://cote.inflearn.com/contest/10/problem/02-01)
+  - [2. 보이는 학생](https://cote.inflearn.com/contest/10/problem/02-02)
+  - [3. 가위 바위 보](https://cote.inflearn.com/contest/10/problem/02-03)
+- 2-2
+  - [4. 피보나치 수열](https://cote.inflearn.com/contest/10/problem/02-04)
+  - [5. 소수(에라토스테네스 체)](https://cote.inflearn.com/contest/10/problem/02-05)
+  - [6. 뒤집은 소수](https://cote.inflearn.com/contest/10/problem/02-06)
+  - [7. 점수계산](https://cote.inflearn.com/contest/10/problem/02-07)
+  - [8. 등수구하기](https://cote.inflearn.com/contest/10/problem/02-08)
+***
