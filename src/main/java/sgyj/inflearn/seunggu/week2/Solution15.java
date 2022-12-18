@@ -7,6 +7,7 @@ import java.util.Arrays;
 
 public class Solution15 {
     /**
+     * @title : 가위 바위 보
      * @description : A, B 두 사람이 가위바위보 게임을 합니다. 총 N번의 게임을 하여 A가 이기면 A를 출력하고, B가 이기면 B를 출력합니다. 비길 경우에는 D를 출력합니다.
      *                가위, 바위, 보의 정보는 1:가위, 2:바위, 3:보로 정하겠습니다.
      *                두 사람의 각 회의 가위, 바위, 보 정보가 주어지면 각 회를 누가 이겼는지 출력하는 프로그램을 작성하세요.
@@ -17,16 +18,16 @@ public class Solution15 {
      */
     public static void main ( String[] args ) {
         try ( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in ) ) ) {
-            int count = Integer.parseInt( reader.readLine() );
-            int[] a = Arrays.stream( reader.readLine().split( " " ) ).mapToInt( Integer::parseInt ).toArray();
-            int[] b = Arrays.stream( reader.readLine().split( " " ) ).mapToInt( Integer::parseInt ).toArray();
-            System.out.println(solution( count, a, b ));
+            System.out.println(solution( reader ));
         } catch ( IOException e ) {
             e.printStackTrace();
         }
     }
 
-    private static String solution ( int count, int[] a, int[] b ) {
+    static String solution ( BufferedReader reader ) throws IOException {
+        int count = Integer.parseInt( reader.readLine() );
+        int[] a = Arrays.stream( reader.readLine().split( " " ) ).mapToInt( Integer::parseInt ).toArray();
+        int[] b = Arrays.stream( reader.readLine().split( " " ) ).mapToInt( Integer::parseInt ).toArray();
         StringBuilder stringBuilder = new StringBuilder();
         for(int i=0; i < count; i++) {
             if( a[i] == b[i]) {

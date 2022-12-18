@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 public class Solution12 {
     /**
+     * @title : 암호
      * @description : 현수는 영희에게 알파벳 대문자로 구성된 비밀편지를 매일 컴퓨터를 이용해 보냅니다.
      *                비밀편지는 현수와 영희가 서로 약속한 암호로 구성되어 있습니다.
      *                비밀편지는 알파벳 한 문자마다 # 또는 *이 일곱 개로 구성되어 있습니다.
@@ -29,14 +30,14 @@ public class Solution12 {
      */
     public static void main ( String[] args ) {
         try ( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in ) ) ) {
-            int number = Integer.parseInt( reader.readLine() );
-            System.out.println(solution( reader, number ));
+            System.out.println(solution( reader ));
         } catch ( IOException e ) {
             e.printStackTrace();
         }
     }
 
-    private static String solution ( BufferedReader reader, int number ) throws IOException {
+    static String solution ( BufferedReader reader ) throws IOException {
+        int number = Integer.parseInt( reader.readLine() );
         String word = reader.readLine().replace( "#", "1" ).replace( "*", "0" );
         int startNumber = 0;
         StringBuilder stringBuilder = new StringBuilder();
