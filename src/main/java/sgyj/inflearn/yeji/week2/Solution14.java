@@ -2,7 +2,7 @@ package sgyj.inflearn.yeji.week2;
 
 import java.util.Scanner;
 
-public class Solution4 {
+public class Solution14 {
 
     public int solution(int input1, String[] input2){
         int answer = 1;
@@ -23,7 +23,7 @@ public class Solution4 {
         int input1 = in.nextInt();
         in.nextLine();
         String[] input2 = in.nextLine().split( " " );
-        Solution4 solution4 = new Solution4();
-        System.out.println(solution4.solution( input1,input2 ) );
+        Solution14 solution14 = new Solution14();
+        System.out.println( solution14.solution( input1, input2 ) );
     }
 }

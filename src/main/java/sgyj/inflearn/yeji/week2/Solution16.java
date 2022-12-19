@@ -2,7 +2,7 @@ package sgyj.inflearn.yeji.week2;
 
 import java.util.Scanner;
 
-public class Solution6 {
+public class Solution16 {
 
     public int checkInteger(int target, int currentIndex, int result, int[] checkValue){
         result += checkValue[target];
@@ -25,8 +25,8 @@ public class Solution6 {
     public static void main(String[] args){
         Scanner in=new Scanner( System.in);
         int input1 = in.nextInt();
-        Solution6 solution6 = new Solution6();
-        int[] solution = solution6.solution( input1 );
+        Solution16 solution16 = new Solution16();
+        int[] solution = solution16.solution( input1 );
         for ( int integer : solution ) {
             System.out.print( integer +" ");
         }

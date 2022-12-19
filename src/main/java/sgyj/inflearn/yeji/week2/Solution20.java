@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class Solution10 {
+public class Solution20 {
 
     private static int[] solution(String[] input){
         int[] result = new int[input.length];

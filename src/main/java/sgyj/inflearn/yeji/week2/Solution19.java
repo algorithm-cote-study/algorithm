@@ -2,7 +2,7 @@ package sgyj.inflearn.yeji.week2;
 
 import java.util.Scanner;
 
-public class Solution9 {
+public class Solution19 {
 
     private static int solution(String[] input){
         int answer = 0;

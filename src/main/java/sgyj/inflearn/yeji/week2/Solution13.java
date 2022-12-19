@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Solution3 {
+public class Solution13 {
 
     public List<Integer> solution( int input1, String input2){
         String[] splitInput2 = input2.split( " " );
@@ -23,11 +23,11 @@ public class Solution3 {
 
     public static void main(String[] args){
         Scanner in=new Scanner( System.in);
-        Solution3 solution3 = new Solution3();
+        Solution13 solution13 = new Solution13();
         int input1 = in.nextInt();
         in.nextLine();
         String input2 = in.nextLine();
-        List<Integer> solution = solution3.solution( input1, input2 );
+        List<Integer> solution = solution13.solution( input1, input2 );
         for ( Integer integer : solution ) {
             System.out.print( integer + " ");
         }

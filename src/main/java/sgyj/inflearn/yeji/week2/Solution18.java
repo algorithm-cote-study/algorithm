@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Solution8 {
+public class Solution18 {
 
     /*
     * @description

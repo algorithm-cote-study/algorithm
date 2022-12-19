@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Solution1 {
+public class Solution11 {
     // KKHSSSSSSSE
     // K2HS7E
     public String solution(String value){
@@ -34,8 +34,8 @@ public class Solution1 {
 
     public static void main(String[] args){
         Scanner in=new Scanner( System.in);
-        Solution1 solution1 = new Solution1();
-        System.out.println(solution1.solution( in.nextLine() ) );
+        Solution11 solution11 = new Solution11();
+        System.out.println( solution11.solution( in.nextLine() ) );
 
     }
 

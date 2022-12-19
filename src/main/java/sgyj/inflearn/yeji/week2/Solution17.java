@@ -3,7 +3,7 @@ package sgyj.inflearn.yeji.week2;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class Solution7 {
+public class Solution17 {
 
     /*
     * @description

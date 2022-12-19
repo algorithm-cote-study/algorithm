@@ -2,14 +2,14 @@ package sgyj.inflearn.yeji.week2;
 
 import java.util.Scanner;
 
-public class Solution2 {
+public class Solution12 {
 //    4
 //    #****##
 //    #**####
 //    #**####
 //    #**##**
 //    COOL
-    private String solution(int n, String input){
+public String solution ( int n, String input ){
         StringBuilder answer = new StringBuilder();
         int index = 0;
         for(int i=1; i<=n; i++){
@@ -30,10 +30,10 @@ public class Solution2 {
 
     public static void main(String[] args){
         Scanner in=new Scanner( System.in);
-        Solution2 solution2 = new Solution2();
+        Solution12 solution12 = new Solution12();
         int n = in.nextInt();
         in.nextLine();
         String s = in.nextLine();
-        System.out.println( solution2.solution( n,s ) );
+        System.out.println( solution12.solution( n, s ) );
     }
 }
