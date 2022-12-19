@@ -15,17 +15,21 @@ public class Solution1 {
      */
     public static void main ( String[] args ) {
         try( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in))) {
-            String word = reader.readLine();
-            String findChar = reader.readLine();
-            String[] words = word.split( "" );
-            int cnt = 0;
-            for ( String s : words ) {
-                if(s.equalsIgnoreCase( findChar )) cnt++;
-            }
-            System.out.println(cnt);
+            System.out.println(solution( reader ));
         } catch ( IOException e ) {
             e.printStackTrace();
         }
+    }
+
+    static int solution ( BufferedReader reader ) throws IOException {
+        String word = reader.readLine();
+        String findChar = reader.readLine();
+        String[] words = word.split( "" );
+        int cnt = 0;
+        for ( String s : words ) {
+            if(s.equalsIgnoreCase( findChar )) cnt++;
+        }
+        return cnt;
     }
 
 }
