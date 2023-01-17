@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 class Solution35{
-
+    // k번째 큰수
     public static Set<Integer> compareList = new HashSet<>();
 
     public static int solution(int n, int k, int[] input){
