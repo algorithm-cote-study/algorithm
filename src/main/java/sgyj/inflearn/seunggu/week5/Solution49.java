@@ -40,12 +40,10 @@ public class Solution49 {
                     second = i+1;
                     compareNumber = array[i];
                 }
-            } else {
-                if(array[i-1] < compareNumber ){
-                    first = i + 1;
-                    if(array[i] == compareNumber) first++;
-                    break;
-                }
+            } else if(array[i-1] < compareNumber ){
+                first = i + 1;
+                if(array[i] == compareNumber) first++;
+                break;
             }
         }
         return first + " " + second;
