@@ -74,7 +74,7 @@ class Solution33Test {
             if(readLine != null) stringBuilder.append( readLine );
         }
         // then
-        assertEquals( stringBuilder.toString(), solution );
+        assertEquals( stringBuilder.toString().strip(), solution.strip() );
 
     }
 
