@@ -1,14 +1,5 @@
 package sgyj.inflearn.yeji.week6;
 
-class Node{
-    int data;
-    Node lt,rt;
-    public Node(int val){
-        data = val;
-        lt=rt=null;
-    }
-}
-
 public class Solution58 {
     Node root;
     public void DFS(Node root){
