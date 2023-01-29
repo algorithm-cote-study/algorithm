@@ -14,7 +14,7 @@ class Solution8Test {
     @Test
     @DisplayName( "이분검색 테스트 케이스 1" )
     void test_case_1 () throws Exception {
-        int solution = getSolution( "static/solution51/test_case1.txt" );
+        int solution = getSolution( "static/section6/solution8/test_case1.txt" );
 
         // then
         assertEquals( 14, solution );
@@ -32,7 +32,7 @@ class Solution8Test {
     @DisplayName( "이분검색 테스트 케이스 2" )
     void test_case_2 () throws Exception {
         // given
-        int solution = getSolution( "static/solution51/test_case2.txt" );
+        int solution = getSolution( "static/section6/solution8/test_case2.txt" );
 
         // then
         assertEquals( 16, solution );
@@ -43,7 +43,7 @@ class Solution8Test {
     @DisplayName( "이분검색 테스트 케이스 3" )
     void test_case_3 () throws Exception {
         // given
-        int solution = getSolution( "static/solution51/test_case3.txt" );
+        int solution = getSolution( "static/section6/solution8/test_case3.txt" );
 
         // then
         assertEquals( 55, solution );
@@ -54,7 +54,7 @@ class Solution8Test {
     @DisplayName( "이분검색 테스트 케이스 4" )
     void test_case_4 () throws Exception {
         // given
-        int solution = getSolution( "static/solution51/test_case4.txt" );
+        int solution = getSolution( "static/section6/solution8/test_case4.txt" );
 
         // then
         assertEquals( 721, solution );
@@ -65,7 +65,7 @@ class Solution8Test {
     @DisplayName( "이분검색 테스트 케이스 5" )
     void test_case_5 () throws Exception {
         // given
-        int solution = getSolution( "static/solution51/test_case5.txt" );
+        int solution = getSolution( "static/section6/solution8/test_case5.txt" );
 
         // then
         assertEquals( 291, solution );

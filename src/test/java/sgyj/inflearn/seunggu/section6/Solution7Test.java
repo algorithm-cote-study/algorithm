@@ -14,7 +14,7 @@ class Solution7Test {
     @Test
     @DisplayName( "좌표 정렬 테스트 케이스 1" )
     void test_case_1 () throws Exception {
-        String solution = getSolution( "static/solution50/test_case1.txt" );
+        String solution = getSolution( "static/section6/solution7/test_case1.txt" );
 
         // then
         assertEquals( """
@@ -38,7 +38,7 @@ class Solution7Test {
     @DisplayName( "좌표 정렬 테스트 케이스 2" )
     void test_case_2 () throws Exception {
         // given
-        String solution = getSolution( "static/solution50/test_case2.txt" );
+        String solution = getSolution( "static/section6/solution7/test_case2.txt" );
 
         // then
         assertEquals( """

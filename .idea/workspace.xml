@@ -386,16 +386,20 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="seunggu/week7" />
+                    <option name="lastUsedInstant" value="1674699094" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1674699060" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="seunggu/week2" />
                     <option name="lastUsedInstant" value="1670849217" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="seunggu/week1" />
                     <option name="lastUsedInstant" value="1670849090" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1670849089" />
                   </RecentBranch>
                 </list>
               </option>
@@ -450,16 +454,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="sgyj.inflearn.seunggu.week7" />
       <recent name="sgyj.inflearn.seunggu.week6" />
       <recent name="sgyj.inflearn.seunggu.week5" />
       <recent name="sgyj.inflearn.seunggu.week4" />
       <recent name="sgyj.inflearn.seunggu.week2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sgyj.inflearn.seunggu.week8" />
+      <recent name="sgyj.inflearn.seunggu.week7" />
       <recent name="sgyj.inflearn.seunggu.week6" />
       <recent name="sgyj.inflearn.seunggu.week5" />
       <recent name="sgyj.inflearn.seunggu.week4" />
-      <recent name="sgyj.inflearn.seunggu.week2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Solution7">
@@ -576,6 +582,10 @@
       <workItem from="1674116406060" duration="727000" />
       <workItem from="1674467828825" duration="4016000" />
       <workItem from="1674637265182" duration="10695000" />
+      <workItem from="1674820977838" duration="9836000" />
+      <workItem from="1674832169245" duration="12198000" />
+      <workItem from="1674892572173" duration="5455000" />
+      <workItem from="1674910513703" duration="4784000" />
     </task>
     <servers />
   </component>
@@ -599,6 +609,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/section6/Solution8.java</url>
           <line>29</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution64.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week8/Solution75.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
