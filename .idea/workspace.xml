@@ -5,37 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab7c1d51-baae-400a-a4e4-bb9579d15bcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution51.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution52.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution54.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution55.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution57.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution58.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution59.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sgyj/inflearn/seunggu/week6/Solution51Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sgyj/inflearn/seunggu/week6/Solution52Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sgyj/inflearn/seunggu/week6/Solution53Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution51/test_case1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution51/test_case2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution51/test_case3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution51/test_case4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution51/test_case5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution52/test_case1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution52/test_case2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution52/test_case3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution52/test_case4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution52/test_case5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution53/test_case1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution53/test_case2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution53/test_case3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution53/test_case4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution53/test_case5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution61.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution62.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution63.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution65.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution68.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution69.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week8/Solution71.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week8/Solution72.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week8/Solution73.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week8/Solution74.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week8/Solution74_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week8/Solution75.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sgyj/inflearn/seunggu/week7/Solution61Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sgyj/inflearn/seunggu/week7/Solution64Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sgyj/inflearn/seunggu/week7/Solution65Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution61/test_case1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution61/test_case2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution61/test_case3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution61/test_case4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution61/test_case5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution64/test_case1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/static/solution65/test_case1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +63,20 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="seunggu/week7" />
+                    <option name="lastUsedInstant" value="1674699094" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1674699060" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="seunggu/week2" />
                     <option name="lastUsedInstant" value="1670849217" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="seunggu/week1" />
                     <option name="lastUsedInstant" value="1670849090" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1670849089" />
                   </RecentBranch>
                 </list>
               </option>
@@ -127,25 +130,27 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="sgyj.inflearn.seunggu.week7" />
       <recent name="sgyj.inflearn.seunggu.week6" />
       <recent name="sgyj.inflearn.seunggu.week5" />
       <recent name="sgyj.inflearn.seunggu.week4" />
       <recent name="sgyj.inflearn.seunggu.week2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sgyj.inflearn.seunggu.week8" />
+      <recent name="sgyj.inflearn.seunggu.week7" />
       <recent name="sgyj.inflearn.seunggu.week6" />
       <recent name="sgyj.inflearn.seunggu.week5" />
       <recent name="sgyj.inflearn.seunggu.week4" />
-      <recent name="sgyj.inflearn.seunggu.week2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution60">
-    <configuration name="Solution56" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.week6.Solution56" />
+  <component name="RunManager" selected="Application.Solution74_1">
+    <configuration name="Solution71" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.week8.Solution71" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sgyj.inflearn.seunggu.week6.*" />
+          <option name="PATTERN" value="sgyj.inflearn.seunggu.week8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution57" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.week6.Solution57" />
+    <configuration name="Solution72" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.week8.Solution72" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sgyj.inflearn.seunggu.week6.*" />
+          <option name="PATTERN" value="sgyj.inflearn.seunggu.week8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution58" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.week6.Solution58" />
+    <configuration name="Solution73" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.week8.Solution73" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sgyj.inflearn.seunggu.week6.*" />
+          <option name="PATTERN" value="sgyj.inflearn.seunggu.week8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution59" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.week6.Solution59" />
+    <configuration name="Solution74_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.week8.Solution74_1" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sgyj.inflearn.seunggu.week6.*" />
+          <option name="PATTERN" value="sgyj.inflearn.seunggu.week8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.week6.Solution60" />
+    <configuration name="Solution75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.week8.Solution75" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sgyj.inflearn.seunggu.week6.*" />
+          <option name="PATTERN" value="sgyj.inflearn.seunggu.week8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution60" />
-        <item itemvalue="Application.Solution59" />
-        <item itemvalue="Application.Solution58" />
-        <item itemvalue="Application.Solution57" />
-        <item itemvalue="Application.Solution56" />
+        <item itemvalue="Application.Solution74_1" />
+        <item itemvalue="Application.Solution75" />
+        <item itemvalue="Application.Solution73" />
+        <item itemvalue="Application.Solution72" />
+        <item itemvalue="Application.Solution71" />
       </list>
     </recent_temporary>
   </component>
@@ -254,6 +259,10 @@
       <workItem from="1674116406060" duration="727000" />
       <workItem from="1674467828825" duration="4016000" />
       <workItem from="1674637265182" duration="10695000" />
+      <workItem from="1674820977838" duration="9836000" />
+      <workItem from="1674832169245" duration="12198000" />
+      <workItem from="1674892572173" duration="5455000" />
+      <workItem from="1674910513703" duration="4784000" />
     </task>
     <servers />
   </component>
@@ -277,6 +286,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution51.java</url>
           <line>29</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week7/Solution64.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week8/Solution75.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
