@@ -19,7 +19,7 @@ public class Solution12 {
 
     public static void main(String[] args){
         Scanner in=new Scanner( System.in);
-        sgyj.inflearn.yeji.week2.Solution12 solution12 = new sgyj.inflearn.yeji.week2.Solution12();
+        sgyj.inflearn.yeji.section1.Solution12 solution12 = new sgyj.inflearn.yeji.section1.Solution12();
         int n = in.nextInt();
         in.nextLine();
         String s = in.nextLine();

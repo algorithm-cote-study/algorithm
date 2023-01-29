@@ -21,7 +21,7 @@ public class Solution11 {
 
     public static void main(String[] args){
         Scanner in=new Scanner( System.in);
-        sgyj.inflearn.yeji.week2.Solution11 solution11 = new sgyj.inflearn.yeji.week2.Solution11();
+        sgyj.inflearn.yeji.section1.Solution11 solution11 = new sgyj.inflearn.yeji.section1.Solution11();
         System.out.println( solution11.solution( in.nextLine() ) );
 
     }

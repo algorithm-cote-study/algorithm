@@ -15,7 +15,7 @@ class Solution3Test {
     @DisplayName( "매출액의 종류 테스트 케이스 1" )
     void test_case_1 () throws Exception {
         // given
-        String solution = getSolution( "static/solution33/test_case1.txt" );
+        String solution = getSolution( "static/section4/solution3/test_case1.txt" );
 
         // then
         assertEquals( "3 3 3 3 3 3 3 3 ", solution );
@@ -32,7 +32,7 @@ class Solution3Test {
     @DisplayName( "매출액의 종류 테스트 케이스 2" )
     void test_case_2 () throws Exception {
         // given
-        String solution = getSolution( "static/solution33/test_case2.txt" );
+        String solution = getSolution( "static/section4/solution3/test_case2.txt" );
 
         // then
         assertEquals( "7 7 8 8 9 9 10 10 10 10 10 ", solution );
@@ -43,11 +43,11 @@ class Solution3Test {
     @DisplayName( "매출액의 종류 테스트 케이스 3" )
     void test_case_3 () throws Exception {
         // given
-        String solution = getSolution( "static/solution33/test_case3.txt" );
+        String solution = getSolution( "static/section4/solution3/test_case3.txt" );
         BufferedReader reader;
 
         // then
-        reader = TestFileUtil.getReader( this.getClass(), "static/solution33/answer3.txt" );
+        reader = TestFileUtil.getReader( this.getClass(), "static/section4/solution3/answer3.txt" );
         StringBuilder stringBuilder = new StringBuilder();
         String readLine = "";
         while(readLine != null) {
@@ -63,10 +63,10 @@ class Solution3Test {
     @DisplayName( "매출액의 종류 테스트 케이스 4" )
     void test_case_4 () throws Exception {
         // given
-        String solution = getSolution( "static/solution33/test_case4.txt" );
+        String solution = getSolution( "static/section4/solution3/test_case4.txt" );
         BufferedReader reader;
 
-        reader = TestFileUtil.getReader( this.getClass(), "static/solution33/answer4.txt" );
+        reader = TestFileUtil.getReader( this.getClass(), "static/section4/solution3/answer4.txt" );
         StringBuilder stringBuilder = new StringBuilder();
         String readLine = "";
         while(readLine != null) {
@@ -82,10 +82,10 @@ class Solution3Test {
     @DisplayName( "매출액의 종류 테스트 케이스 5" )
     void test_case_5 () throws Exception {
         // given
-        String solution = getSolution( "static/solution33/test_case5.txt" );
+        String solution = getSolution( "static/section4/solution3/test_case5.txt" );
         BufferedReader reader;
 
-        reader = TestFileUtil.getReader( this.getClass(), "static/solution33/answer5.txt" );
+        reader = TestFileUtil.getReader( this.getClass(), "static/section4/solution3/answer5.txt" );
         StringBuilder stringBuilder = new StringBuilder();
         String readLine = "";
         while(readLine != null) {

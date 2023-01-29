@@ -14,7 +14,7 @@ class Solution1Test {
     @DisplayName( "두 배열 합치기 테스트 케이스 1" )
     void test_case_1 () throws Exception {
         // given
-        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution25/test_case1.txt" );
+        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/section3/solution1/test_case1.txt" );
         // when
         String solution = Solution1.solution( reader );
 
@@ -27,7 +27,7 @@ class Solution1Test {
     @DisplayName( "두 배열 합치기 테스트 케이스 2" )
     void test_case_2 () throws Exception {
         // given
-        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution25/test_case2.txt" );
+        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/section3/solution1/test_case2.txt" );
         // when
         String solution = Solution1.solution( reader );
 
@@ -40,7 +40,7 @@ class Solution1Test {
     @DisplayName( "두 배열 합치기 테스트 케이스 3" )
     void test_case_3 () throws Exception {
         // given
-        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution25/test_case3.txt" );
+        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/section3/solution1/test_case3.txt" );
         // when
         String solution = Solution1.solution( reader );
 
@@ -53,7 +53,7 @@ class Solution1Test {
     @DisplayName( "두 배열 합치기 테스트 케이스 4" )
     void test_case_4 () throws Exception {
         // given
-        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution25/test_case4.txt" );
+        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/section3/solution1/test_case4.txt" );
         // when
         String solution = Solution1.solution( reader );
 
@@ -66,7 +66,7 @@ class Solution1Test {
     @DisplayName( "두 배열 합치기 테스트 케이스 5" )
     void test_case_5 () throws Exception {
         // given
-        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution25/test_case5.txt" );
+        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/section3/solution1/test_case5.txt" );
         // when
         String solution = Solution1.solution( reader );
 

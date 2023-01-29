@@ -14,7 +14,7 @@ class Solution6Test {
     @Test
     @DisplayName( "장난꾸러기 테스트 케이스 1" )
     void test_case_1 () throws Exception {
-        String solution = getSolution( "static/solution49/test_case1.txt" );
+        String solution = getSolution( "static/section6/solution6/test_case1.txt" );
 
         // then
         assertEquals( "3 8", solution );
@@ -32,7 +32,7 @@ class Solution6Test {
     @DisplayName( "장난꾸러기 테스트 케이스 2" )
     void test_case_2 () throws Exception {
         // given
-        String solution = getSolution( "static/solution49/test_case2.txt" );
+        String solution = getSolution( "static/section6/solution6/test_case2.txt" );
 
         // then
         assertEquals( "2 9", solution );
@@ -43,7 +43,7 @@ class Solution6Test {
     @DisplayName( "장난꾸러기 테스트 케이스 3" )
     void test_case_3 () throws Exception {
         // given
-        String solution = getSolution( "static/solution49/test_case3.txt" );
+        String solution = getSolution( "static/section6/solution6/test_case3.txt" );
 
         // then
         assertEquals( "24 27", solution );
@@ -54,7 +54,7 @@ class Solution6Test {
     @DisplayName( "장난꾸러기 테스트 케이스 4" )
     void test_case_4 () throws Exception {
         // given
-        String solution = getSolution( "static/solution49/test_case4.txt" );
+        String solution = getSolution( "static/section6/solution6/test_case4.txt" );
 
         // then
         assertEquals( "44 59", solution );
@@ -65,7 +65,7 @@ class Solution6Test {
     @DisplayName( "장난꾸러기 테스트 케이스 5" )
     void test_case_5 () throws Exception {
         // given
-        String solution = getSolution( "static/solution49/test_case5.txt" );
+        String solution = getSolution( "static/section6/solution6/test_case5.txt" );
 
         // then
         assertEquals( "35 70", solution );

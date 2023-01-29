@@ -14,7 +14,7 @@ class Solution5Test {
     @DisplayName( "소수(에라토스테네스 체) 테스트 케이스 1" )
     void test_case_1 () throws Exception {
         // given
-        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution17/test_case1.txt" );
+        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/section2/solution5/test_case1.txt" );
 
         // when
         int solution = Solution5.solution( reader );
@@ -28,7 +28,7 @@ class Solution5Test {
     @DisplayName( "소수(에라토스테네스 체) 테스트 케이스 2" )
     void test_case_2 () throws Exception {
         // given
-        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution17/test_case2.txt" );
+        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/section2/solution5/test_case2.txt" );
 
         // when
         int solution = Solution5.solution( reader );
@@ -42,7 +42,7 @@ class Solution5Test {
     @DisplayName( "소수(에라토스테네스 체) 테스트 케이스 3" )
     void test_case_3 () throws Exception {
         // given
-        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution17/test_case3.txt" );
+        BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/section2/solution5/test_case3.txt" );
 
         // when
         int solution = Solution5.solution( reader );
