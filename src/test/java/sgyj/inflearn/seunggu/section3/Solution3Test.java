@@ -1,7 +1,6 @@
-package sgyj.inflearn.yeji.week3;
+package sgyj.inflearn.seunggu.section3;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static sgyj.inflearn.yeji.week3.Solution27.solution;
 
 import java.io.BufferedReader;
 import org.junit.jupiter.api.DisplayName;
@@ -9,15 +8,15 @@ import org.junit.jupiter.api.Test;
 import sgyj.inflearn.common.TestFileUtil;
 
 @DisplayName( "최대 매출" )
-class Solution27Test {
-
+class Solution3Test {
+    
     @Test
     @DisplayName( "최대 매출 테스트 케이스 1" )
     void test_case_1 () throws Exception {
         // given
         BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution27/test_case1.txt" );
         // when
-        int solution = solution( reader );
+        int solution = Solution3.solution( reader );
 
         // then
         assertEquals( 126, solution );
@@ -30,7 +29,7 @@ class Solution27Test {
         // given
         BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution27/test_case2.txt" );
         // when
-        int solution = solution( reader );
+        int solution = Solution3.solution( reader );
 
         // then
         assertEquals( 927, solution );
@@ -43,7 +42,7 @@ class Solution27Test {
         // given
         BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution27/test_case3.txt" );
         // when
-        int solution = solution( reader );
+        int solution = Solution3.solution( reader );
 
         // then
         assertEquals( 256799, solution );
@@ -56,7 +55,7 @@ class Solution27Test {
         // given
         BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution27/test_case4.txt" );
         // when
-        int solution = solution( reader );
+        int solution = Solution3.solution( reader );
 
         // then
         assertEquals( 1763686, solution );
@@ -69,7 +68,7 @@ class Solution27Test {
         // given
         BufferedReader reader = TestFileUtil.getReader( this.getClass(), "static/solution27/test_case5.txt" );
         // when
-        int solution = solution( reader );
+        int solution = Solution3.solution( reader );
 
         // then
         assertEquals( 3008692, solution );
