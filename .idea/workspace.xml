@@ -179,7 +179,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/resources/static/section1/solution9/test_case3.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/static/section1/solution9/test_case4.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/static/section1/solution9/test_case5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week1/Solution1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week1/Solution10.java" beforeDir="false" />
@@ -242,6 +241,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution58.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution59.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/seunggu/week6/Solution60.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/yeji/section7/Solution9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sgyj/inflearn/yeji/section7/Solution9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sgyj/inflearn/seunggu/week1/Solution10Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sgyj/inflearn/seunggu/week1/Solution1Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sgyj/inflearn/seunggu/week1/Solution2Test.java" beforeDir="false" />
@@ -468,7 +468,7 @@
       <recent name="sgyj.inflearn.seunggu.week4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution7">
+  <component name="RunManager" selected="JUnit.seunggu in algorithm.test">
     <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.section7.Solution3" />
       <module name="algorithm.main" />
@@ -484,19 +484,6 @@
     </configuration>
     <configuration name="Solution4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.section7.Solution4" />
-      <module name="algorithm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sgyj.inflearn.seunggu.section7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sgyj.inflearn.seunggu.section7.Solution5" />
       <module name="algorithm.main" />
       <extension name="coverage">
         <pattern>
@@ -534,8 +521,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seunggu in algorithm.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm.test" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/sgyj/inflearn/seunggu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.seunggu in algorithm.test" />
         <item itemvalue="Application.Solution7" />
         <item itemvalue="Application.Solution6" />
         <item itemvalue="Application.Solution4" />
