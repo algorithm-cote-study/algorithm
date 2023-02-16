@@ -19,16 +19,21 @@ public class Solution4 {
      */
     public static void main ( String[] args ) {
         try ( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in ) ) ) {
-            String[] lines = reader.readLine().split(" ");
-            n = Integer.parseInt(lines[0]);
-            m = Integer.parseInt(lines[1]);
-            numbers = new int[m];
-            stringBuilder = new StringBuilder();
-            recursion(0);
-            System.out.println(stringBuilder);
+            System.out.println(solution( reader ));
         } catch ( IOException e ) {
             e.printStackTrace();
         }
+    }
+
+    static String solution ( BufferedReader reader ) throws IOException {
+        String[] lines = reader.readLine().split( " ");
+        n = Integer.parseInt(lines[0]);
+        m = Integer.parseInt(lines[1]);
+        numbers = new int[m];
+        stringBuilder = new StringBuilder();
+        recursion(0);
+        System.out.println(stringBuilder);
+        return stringBuilder.toString().trim();
     }
 
     static void recursion( int number ) {
@@ -36,6 +41,7 @@ public class Solution4 {
             for(int x : numbers) {
                 stringBuilder.append( x ).append( " " );
             }
+            stringBuilder.trimToSize();
             stringBuilder.append( "\n" );
             return;
         }

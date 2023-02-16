@@ -9,7 +9,7 @@ public class Solution1 {
 
     private static final int[] checked = new int[1001];
     private static int[] array;
-    private static String answer = "NO";
+    private static String answer;
     /**
      * @title : 합이 같은 부분집합(DFS : 아마존 인터뷰)
      * @description : N개의 원소로 구성된 자연수 집합이 주어지면, 이 집합을 두 개의 부분집합으로 나누었을 때
@@ -22,16 +22,21 @@ public class Solution1 {
      */
     public static void main ( String[] args ) {
         try ( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in ) ) ) {
-            int m = Integer.parseInt( reader.readLine() );
-            array = Arrays.stream( reader.readLine().split( " ")).mapToInt( Integer::parseInt).toArray();
-            for(int x : array) {
-                checked[x] = 1;
-            }
-            recursive( 1, m );
-            System.out.println(answer);
+            System.out.println(solution( reader ));
         } catch ( IOException e ) {
             e.printStackTrace();
         }
+    }
+
+    static String solution ( BufferedReader reader ) throws IOException {
+        int m = Integer.parseInt( reader.readLine() );
+        array = Arrays.stream( reader.readLine().split( " ")).mapToInt( Integer::parseInt).toArray();
+        answer = "NO";
+        for(int x : array) {
+            checked[x] = 1;
+        }
+        recursive( 1, m );
+        return answer;
     }
 
     static void recursive(int n, int m ) {

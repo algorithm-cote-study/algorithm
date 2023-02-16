@@ -28,23 +28,28 @@ public class Solution8 {
     private static boolean[] visited;
     private static int[] initArray;
 
-    static boolean flag = false;
+    static boolean flag;
     public static void main ( String[] args ) {
         try ( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in ) ) ) {
-            String[] lines = reader.readLine().split(" ");
-            n = Integer.parseInt(lines[0]);
-            m = Integer.parseInt(lines[1]);
-            arr = new int[n];
-            visited = new boolean[n+1];
-            initArray = new int[n];
-            for(int i=0; i < n; i++) {
-                initArray[i] = i+1;
-            }
-            DFS(0);
-            System.out.println(answer);
+            System.out.println(solution( reader ));
         } catch ( IOException e ) {
             e.printStackTrace();
         }
+    }
+
+    static String solution ( BufferedReader reader ) throws IOException {
+        String[] lines = reader.readLine().split( " ");
+        n = Integer.parseInt(lines[0]);
+        m = Integer.parseInt(lines[1]);
+        arr = new int[n];
+        visited = new boolean[n+1];
+        initArray = new int[n];
+        flag = false;
+        for(int i=0; i < n; i++) {
+            initArray[i] = i+1;
+        }
+        DFS(0);
+        return answer;
     }
 
     static void DFS(int number) {

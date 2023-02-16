@@ -11,7 +11,7 @@ public class Solution5 {
     private static int n;
     private static int m;
     private static boolean[] visited;
-    private static int min = Integer.MAX_VALUE;
+    private static int min;
 
 
     /**
@@ -24,17 +24,22 @@ public class Solution5 {
      */
     public static void main ( String[] args ) {
         try ( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in ) ) ) {
-            n = Integer.parseInt(reader.readLine());
-            Integer[] array = Arrays.stream(reader.readLine().split(" ")).mapToInt(Integer::parseInt).boxed().toArray(Integer[]::new);
-            Arrays.sort(array, Comparator.reverseOrder());
-            m = Integer.parseInt( reader.readLine() );
-            visited = new boolean[n];
-            //recursion( 0);
-            DFS(0, 0, array);
-            System.out.println(min);
+            solution( reader );
         } catch ( IOException e ) {
             e.printStackTrace();
         }
+    }
+
+    static int solution ( BufferedReader reader ) throws IOException {
+        n = Integer.parseInt( reader.readLine());
+        Integer[] array = Arrays.stream( reader.readLine().split( " ")).mapToInt( Integer::parseInt).boxed().toArray( Integer[]::new);
+        Arrays.sort(array, Comparator.reverseOrder());
+        m = Integer.parseInt( reader.readLine() );
+        visited = new boolean[n];
+        min = Integer.MAX_VALUE;
+        //recursion( 0);
+        DFS(0, 0, array);
+        return min;
     }
 
     /*static void recursion ( int number) {

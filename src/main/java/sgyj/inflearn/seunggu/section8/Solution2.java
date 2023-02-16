@@ -7,9 +7,8 @@ import java.io.InputStreamReader;
 public class Solution2 {
 
     private static boolean[] visited;
-    private static final int[] array = new int[10001];
     private static int[] baduks;
-    private static int max = Integer.MIN_VALUE;
+    private static int max;
     private static int n;
     private static int c;
     /**
@@ -23,19 +22,24 @@ public class Solution2 {
      */
     public static void main ( String[] args ) {
         try ( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in ) ) ) {
-            String[] lines = reader.readLine().split( " " );
-            c = Integer.parseInt( lines[0] );
-            n = Integer.parseInt( lines[1] );
-            baduks = new int[n];
-            visited = new boolean[n];
-            for(int i=0; i<n; i++) {
-                baduks[i] = Integer.parseInt(reader.readLine());
-            }
-            DFS(0);
-            System.out.println(max);
+            solution( reader );
         } catch ( IOException e ) {
             e.printStackTrace();
         }
+    }
+
+    static int solution ( BufferedReader reader ) throws IOException {
+        String[] lines = reader.readLine().split( " " );
+        c = Integer.parseInt( lines[0] );
+        n = Integer.parseInt( lines[1] );
+        baduks = new int[n];
+        visited = new boolean[n];
+        max  = Integer.MIN_VALUE;
+        for(int i=0; i<n; i++) {
+            baduks[i] = Integer.parseInt( reader.readLine());
+        }
+        DFS(0);
+        return max;
     }
 
     static void DFS(int number) {

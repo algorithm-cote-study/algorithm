@@ -13,7 +13,7 @@ public class Solution3 {
     static int [][] array;
 
     static boolean[] visited;
-    static int max = Integer.MIN_VALUE;
+    static int max;
 
     /**
      * @title : 최대점수 구하기(DFS)
@@ -27,19 +27,24 @@ public class Solution3 {
      */
     public static void main ( String[] args ) {
         try ( BufferedReader reader = new BufferedReader( new InputStreamReader( System.in ) ) ) {
-            String[] lines = reader.readLine().split( " " );
-            n = Integer.parseInt(lines[0]);
-            m = Integer.parseInt(lines[1]);
-            array = new int[n][2];
-            visited = new boolean[n+1];
-            for(int i=0 ;i < n; i++) {
-                array[i] = Arrays.stream(reader.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
-            }
-            BFS(0);
-            System.out.println(max);
+            solution( reader );
         } catch ( IOException e ) {
             e.printStackTrace();
         }
+    }
+
+    static int solution ( BufferedReader reader ) throws IOException {
+        String[] lines = reader.readLine().split( " " );
+        n = Integer.parseInt(lines[0]);
+        m = Integer.parseInt(lines[1]);
+        array = new int[n][2];
+        visited = new boolean[n+1];
+        for(int i=0 ;i < n; i++) {
+            array[i] = Arrays.stream( reader.readLine().split( " ")).mapToInt( Integer::parseInt).toArray();
+        }
+        max  = Integer.MIN_VALUE;
+        BFS(0);
+        return max;
     }
 
     static void BFS(int number) {
