@@ -4,7 +4,6 @@ import java.util.Optional;
 
 class LinkedList {
     int value;
-    Node next;
     Node head;
     Node tail;
 
