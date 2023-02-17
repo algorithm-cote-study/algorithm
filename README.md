@@ -6,6 +6,8 @@
 - [ ] [코딩테스트 ALL IN ONE - 개발남노씨](https://www.inflearn.com/course/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%85%EB%AC%B8-%ED%8C%8C%EC%9D%B4%EC%8D%AC)
 
 ### 패키지 구조
+
+```
 .
 └── sgyj
     ├── backjun
@@ -38,3 +40,4 @@
     │   └── yeji
     └── thisiscodingtest
         └── greedy
+```
