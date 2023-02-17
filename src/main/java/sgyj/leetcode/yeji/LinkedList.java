@@ -9,25 +9,23 @@ class LinkedList {
     Node tail;
 
     public void append( int value){
-        Node nextNode = new Node(value);
+        Node current = new Node(value);
         if( Optional.ofNullable(this.head).isPresent()){
-            Node current = this.head;
-            current.next = nextNode;
-            tail.next = nextNode;
+            tail.next = current;
             tail = tail.next;
         }else{
-            this.head = nextNode;
-            this.tail = nextNode;
+            this.head = current;
+            this.tail = current;
         }
     }
 
     public int get(int value){
         if(Optional.ofNullable( this.head ).isPresent()){
-            Node target = this.head;
+            Node current = this.head;
             for(int i=0; i<value; i++){
-                target = target.next;
+                current = current.next;
             }
-            return target.value;
+            return current.value;
         }else{
             return -1;
         }
@@ -36,12 +34,12 @@ class LinkedList {
 
     public void insertAt(int index, int value){
         Node newNode = new Node( value );
-        Node target = this.head;
+        Node current = this.head;
         for(int i=0; i<index-1; i++){
-            target = target.next;
+            current = current.next;
         }
-        newNode.next = target.next;
-        target.next = newNode;
+        newNode.next = current.next;
+        current.next = newNode;
     }
 
 }
