@@ -1,4 +1,4 @@
-package sgyj.leetcode.seunggu;
+package sgyj.leetcode.seunggu.section2;
 
 public class LinkedListExample {
 

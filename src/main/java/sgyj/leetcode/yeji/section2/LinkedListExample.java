@@ -1,4 +1,4 @@
-package sgyj.leetcode.yeji;
+package sgyj.leetcode.yeji.section2;
 
 public class LinkedListExample {
 
