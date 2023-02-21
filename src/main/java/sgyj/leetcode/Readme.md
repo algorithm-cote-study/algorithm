@@ -8,4 +8,5 @@
 
 ## Stack
 - [20. valid parentheses](https://leetcode.com/problems/valid-parentheses)
+- [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
