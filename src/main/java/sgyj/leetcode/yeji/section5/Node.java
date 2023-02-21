@@ -1,8 +1,11 @@
 package sgyj.leetcode.yeji.section5;
 
 class Node {
-    int value;
+    String value;
     Node left;
     Node right;
 
+    Node(String value){
+        this.value = value;
+    }
 }

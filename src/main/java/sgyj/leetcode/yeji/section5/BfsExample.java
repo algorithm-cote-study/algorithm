@@ -6,7 +6,7 @@ import java.util.Deque;
 import java.util.List;
 
 public class BfsExample {
-    private static List<Integer> visited = new ArrayList<>();
+    private static List<String> visited = new ArrayList<>();
 
     private void bfs(Node root){
         if(root == null){
