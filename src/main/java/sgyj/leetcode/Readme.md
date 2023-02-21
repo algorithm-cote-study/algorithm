@@ -10,3 +10,5 @@
 - [20. valid parentheses](https://leetcode.com/problems/valid-parentheses)
 - [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 
+## Hashtable
+- [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
