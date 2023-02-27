@@ -2,10 +2,8 @@ package sgyj.leetcode.yeji.section5;
 
 //104. Maximum Depth of Binary Tree
 
-import com.sun.source.tree.Tree;
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.HashMap;
 
 /**
  * Definition for a binary tree node.
@@ -23,7 +21,7 @@ import java.util.HashMap;
  * }
  */
 public class Solution104 {
-    public int maxDepth(TreeNode root) {
+    public int maxDepth( TreeNode root) {
         int answer = 0;
         if(root == null) return 0;
         Deque<TreeNode> q = new ArrayDeque<>();
@@ -58,11 +56,15 @@ class TreeNode{
     int depth;
     TreeNode left;
     TreeNode right;
-    TreeNode() {}
+
+    public TreeNode () {
+
+    }
+
     TreeNode(int val){
         this.val = val;
     }
-    TreeNode(int val, TreeNode left, TreeNode right){
+    TreeNode( int val, TreeNode left, TreeNode right){
         this.val = val;
         this.left = left;
         this.right = right;
