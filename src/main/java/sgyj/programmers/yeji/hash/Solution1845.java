@@ -1,4 +1,4 @@
-package sgyj.programmers.hash;
+package sgyj.programmers.yeji.hash;
 
 import java.util.HashMap;
 import java.util.Map;
