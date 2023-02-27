@@ -66,8 +66,16 @@ class  Location{
     int x;
     int y;
 
+    int len;
+
     Location(int x, int y){
         this.x = x;
         this.y = y;
+    }
+
+    Location(int x, int y, int len){
+        this.x = x;
+        this.y = y;
+        this.len = len;
     }
 }
