@@ -7,41 +7,62 @@ import java.util.Deque;
 public class Solution42583 {
 
     private static int solution(int bridge_length, int weight, int[] truck_weights){
-        int answer = 1;
-        if(truck_weights.length == 1) return bridge_length + 1;
+        int answer = 0;
+
         Deque<Integer> q = new ArrayDeque<>();
-        for(int truck : truck_weights){
-            q.offer( truck );
+        int sum = 0; // 다리를 건너는 트럭들의 무게 합
+
+        for(int t : truck_weights) {
+
+            while(true) {
+                //큐가 비어있다면 다음 트럭 삽입
+                if(q.isEmpty()) {
+                    q.offer(t);
+                    sum += t;
+                    answer++;
+                    break;
+                }
+                //큐의 사이즈와 다리의 길이가 같다면 큐에서 큐에서 처음 값을 빼고 최대 무게 -
+                else if(q.size() == bridge_length) {
+                    sum -= q.poll();
+                }
+                //큐가 비어있지 않을 때
+                else {
+                    //다음 트럭이 최대 무게 초과
+                    if(sum + t > weight) {
+                        q.offer(0);
+                        answer++;
+                    }
+                    //다음 트럭이 최대 무게 이내
+                    else {
+                        q.offer(t);
+                        sum += t;
+                        answer++;
+                        break;
+                    }
+                }
+            }
         }
 
-        int bridge = 1;
-        int i = 0;
-        int max = q.poll();
-        while ( !q.isEmpty()  ){
-            if(bridge == bridge_length){
-                max-=truck_weights[i];
-                bridge = 0;
-                i++;
-            }
-            if(max+q.peek()<=weight){
-                max+=q.poll();
-            }
-            bridge++;
-            answer++;
-        }
-
-        return answer;
+        //걸린 시간 + 마지막 트럭의 통과시간(다리의 길이)
+        return answer + bridge_length;
     }
 
-    private static int validCompare(int i, int[] truck_weights){
-        if(i<truck_weights.length) return truck_weights[i];
-        return  0;
-    }
 
     public static void main ( String[] args ) {
-        int bridge_length = 100;
-        int weight = 100;
-        int[] truck_weights = {10,10,10,10,10,10,10,10,10,10};
+        int bridge_length = 2;
+        int weight = 10;
+        int[] truck_weights = {7,4,5,6};
         System.out.println(solution(bridge_length,weight,truck_weights));
+    }
+}
+
+class Truck{
+    int weight;
+    int distance;
+
+    Truck(int weight, int distance){
+        this.weight = weight;
+        this.distance = distance;
     }
 }
