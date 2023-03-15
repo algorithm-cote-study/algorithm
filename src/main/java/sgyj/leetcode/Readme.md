@@ -31,3 +31,5 @@
 ## DP
 
 - [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)
+- [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [322. Coin Change](https://leetcode.com/problems/coin-change/description/)
