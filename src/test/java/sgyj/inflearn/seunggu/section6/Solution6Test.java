@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.inflearn.common.TestFileUtil;
+import sgyj.common.TestFileUtil;
 
 @DisplayName( "장난꾸러기" )
 class Solution6Test {

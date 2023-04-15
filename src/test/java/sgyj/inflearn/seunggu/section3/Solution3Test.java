@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.io.BufferedReader;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.inflearn.common.TestFileUtil;
+import sgyj.common.TestFileUtil;
 
 @DisplayName( "최대 매출" )
 class Solution3Test {

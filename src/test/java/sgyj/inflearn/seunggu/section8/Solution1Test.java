@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.inflearn.common.TestFileUtil;
+import sgyj.common.TestFileUtil;
 
 @DisplayName( "합이 같은 부분집합(DFS : 아마존 인터뷰)" )
 class Solution1Test {

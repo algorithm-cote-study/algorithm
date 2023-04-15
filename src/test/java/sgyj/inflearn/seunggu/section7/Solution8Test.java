@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.inflearn.common.TestFileUtil;
+import sgyj.common.TestFileUtil;
 
 @DisplayName( "송아지 찾기 1(BFS : 상태트리탐색)" )
 class Solution8Test {

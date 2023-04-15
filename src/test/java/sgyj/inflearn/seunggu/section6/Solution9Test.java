@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.inflearn.common.TestFileUtil;
+import sgyj.common.TestFileUtil;
 
 @DisplayName( "뮤직비디오(결정알고리즘)" )
 class Solution9Test {
