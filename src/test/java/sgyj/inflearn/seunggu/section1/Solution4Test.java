@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.inflearn.common.TestFileUtil;
+import sgyj.common.TestFileUtil;
 
 @DisplayName( "단어 뒤집기" )
 class Solution4Test {

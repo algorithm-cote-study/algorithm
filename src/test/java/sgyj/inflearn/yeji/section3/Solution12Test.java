@@ -6,7 +6,7 @@ import static sgyj.inflearn.yeji.section3.Solution1.solution;
 import java.io.BufferedReader;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.inflearn.common.TestFileUtil;
+import sgyj.common.TestFileUtil;
 
 @DisplayName( "두 배열 합치기" )
 

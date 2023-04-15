@@ -6,7 +6,7 @@ import static sgyj.inflearn.yeji.section3.Solution2.solution;
 import java.io.BufferedReader;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.inflearn.common.TestFileUtil;
+import sgyj.common.TestFileUtil;
 
 @DisplayName( "공통원소 구하기" )
 class Solution1Test {

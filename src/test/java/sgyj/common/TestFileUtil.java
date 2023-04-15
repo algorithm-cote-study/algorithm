@@ -1,4 +1,4 @@
-package sgyj.inflearn.common;
+package sgyj.common;
 
 import java.io.BufferedReader;
 import java.io.File;
