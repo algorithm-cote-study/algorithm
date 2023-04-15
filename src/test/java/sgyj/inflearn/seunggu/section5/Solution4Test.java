@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.io.BufferedReader;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.common.TestFileUtil;
+import sgyj.inflearn.common.TestFileUtil;
 
 @DisplayName( "후위식 연산(postfix)" )
 class Solution4Test {

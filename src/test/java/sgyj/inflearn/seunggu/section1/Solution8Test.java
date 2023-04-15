@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.common.TestFileUtil;
+import sgyj.inflearn.common.TestFileUtil;
 
 @DisplayName( "유효한 팰린드롬" )
 class Solution8Test {

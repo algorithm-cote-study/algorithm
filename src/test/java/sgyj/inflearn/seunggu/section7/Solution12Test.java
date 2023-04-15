@@ -6,7 +6,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.common.TestFileUtil;
+import sgyj.inflearn.common.TestFileUtil;
+import sgyj.inflearn.seunggu.section7.Solution12;
 
 @DisplayName( "인접행렬 경로탐색 인접리스트" )
 class Solution12Test {

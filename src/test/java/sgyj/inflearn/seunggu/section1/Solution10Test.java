@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import sgyj.common.TestFileUtil;
+import sgyj.inflearn.common.TestFileUtil;
 
 @DisplayName( "가장 짧은 문자거리" )
 class Solution10Test {

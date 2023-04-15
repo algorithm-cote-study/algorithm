@@ -12,11 +12,8 @@ public class DfsExample {
     private static Map<String, List<String>> graph;
     public static void main ( String[] args ) {
         visited = new LinkedHashMap<>();
-
-
         graph = new HashMap<>();
         makeGraph();
-        int number = 10 >> 1;
         dfs("A");
         StringBuilder stringBuilder = new StringBuilder();
         for ( Entry<String, Boolean> entry : visited.entrySet() ) {
