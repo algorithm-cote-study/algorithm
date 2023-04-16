@@ -27,3 +27,11 @@
 - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/description/)
 - [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
 - [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/description/)
+
+## DP
+
+- [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)
+- [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [322. Coin Change](https://leetcode.com/problems/coin-change/description/)
+- [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/)
+- [198. House Robber](https://leetcode.com/problems/house-robber/description/)
